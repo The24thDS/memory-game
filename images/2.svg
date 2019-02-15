@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <style>
+      .cls-1, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        stroke: #707070;
+        stroke-width: 1.6px;
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        fill: #79d0ff;
+        opacity: 0.5;
+      }
+
+      .cls-5 {
+        fill: #233a73;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-7 {
+        fill: #2e79cd;
+      }
+
+      .cls-8 {
+        stroke: #79d0ff;
+        stroke-width: 3.2px;
+      }
+
+      .cls-8, .cls-9 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-9 {
+        stroke: #233a73;
+        stroke-width: 2.8px;
+      }
+
+      .cls-10 {
+        filter: url(#line);
+      }
+
+      .cls-11 {
+        filter: url(#circle);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#59a4f8"/>
+      <stop offset="1" stop-color="#186dcb"/>
+    </linearGradient>
+    <filter id="circle" x="0" y="0" width="85" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="29" cy="0" r="39.889" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <circle id="base" class="cls-1" cx="5" cy="5" r="5"/>
+    </clipPath>
+    <filter id="line" x="36.42" y="27.954" width="12.2" height="15.146" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#0002ff" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="asombrado" transform="translate(13.5 9.5)">
+    <g id="circle-2" data-name="circle">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, -13.5, -9.5)">
+        <circle id="circle-3" data-name="circle" class="cls-2" cx="29" cy="29" r="29" transform="translate(13.5 9.5)"/>
+      </g>
+      <circle id="circle-4" data-name="circle" class="cls-3" cx="29" cy="29" r="29"/>
+    </g>
+    <g id="face" transform="translate(3 5)">
+      <path id="circle-5" data-name="circle" class="cls-4" d="M41,5.5A5.5,5.5,0,1,1,46.5,11,5.5,5.5,0,0,1,41,5.5ZM0,5.5A5.5,5.5,0,1,1,5.5,11,5.5,5.5,0,0,1,0,5.5Z" transform="translate(0 19)"/>
+      <circle id="base-2" data-name="base" class="cls-5" cx="8" cy="8" r="8" transform="translate(18 26)"/>
+      <g id="mouth" transform="translate(21 30)">
+        <circle id="base-3" data-name="base" class="cls-1" cx="5" cy="5" r="5"/>
+        <g id="mouth-2" data-name="mouth" class="cls-6">
+          <circle id="base-4" data-name="base" class="cls-7" cx="5" cy="5" r="5" transform="translate(0 6)"/>
+        </g>
+      </g>
+      <path id="eyes" class="cls-5" d="M27.219,7.086a3.5,3.5,0,0,1-3.451-3.543,3.451,3.451,0,1,1,6.9,0A3.5,3.5,0,0,1,27.219,7.086Zm-23.768,0A3.5,3.5,0,0,1,0,3.542,3.5,3.5,0,0,1,3.451,0,3.5,3.5,0,0,1,6.9,3.542,3.5,3.5,0,0,1,3.451,7.086Z" transform="translate(10.7 14)"/>
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, -16.5, -14.5)">
+        <path id="line-2" data-name="line" class="cls-8" d="M1,0V2.946" transform="translate(41.52 32.05)"/>
+      </g>
+      <g id="cejas" transform="translate(7.5)">
+        <path id="line-3" data-name="line" class="cls-9" d="M7.588,1.25h-7" transform="translate(28.412 0.75)"/>
+        <path id="line-4" data-name="line" class="cls-9" d="M7.588,1.25h-7" transform="translate(0.412 0.75)"/>
+      </g>
+    </g>
+  </g>
+</svg>
