@@ -1,0 +1,18 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The24thDS/memory-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The24thDS/memory-game/issues"
+  },
+  "homepage": "https://github.com/The24thDS/memory-game#readme"
+}
