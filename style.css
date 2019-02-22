@@ -20,7 +20,7 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
   align-content: center;
   justify-items: center;
-  background: url("./images/stats.svg"), #ffffffbb;
+  background: url("images/stats.svg"), #ffffffbb;
   margin-bottom: 20px;
   box-shadow: 0 0 6px white;
   z-index: 3;
