@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 399.5 438" style="enable-background:new 0 0 399.5 438;" xml:space="preserve">
+	 viewBox="0 0 400.6 430.5" style="enable-background:new 0 0 400.6 430.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="199.725" y1="27.1523" x2="199.725" y2="426.6011" gradientTransform="matrix(1 0 0 -1 0 460)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="301.2234" y1="425.3916" x2="301.2234" y2="25.9428">
 	<stop  offset="0" style="stop-color:#59A4F8"/>
 	<stop  offset="1" style="stop-color:#186DCB"/>
 </linearGradient>
-<path class="st0" d="M0,28.6V438h399.5V28.6c0,0-86.9-46.9-198.7-1S0,28.6,0,28.6z"/>
+<path class="st0" d="M502,20.1c-111.8,45.9-200.8,1-200.8,1s-86.9-46.9-198.7-1c-111.8,45.9-200.8,1-200.8,1v409.4h399.5h399.5V21.1
+	C700.7,21.1,613.8-25.8,502,20.1z"/>
 </svg>
