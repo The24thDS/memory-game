@@ -21,32 +21,16 @@
     </div>
     <div class="optout">
         <div class="close" onclick="(()=>{document.querySelector('.optout').style='display:none'})()">❌</div>
-        <h1>I am using a self-hosted Matomo instance.</h1>
-        <h2>Your data never gets to Google, is never used for advertisements and never sold to third parties.</h2>
-        <p>You may choose to prevent this website from aggregating and analyzing the actions you take here. Doing so will
-            protect your privacy, but will also prevent the owner from learning from your actions and creating a better
-            experience for you and other users.</p>
-        <form method="post" action="https://david.mywire.org/piwik/index.php?module=CoreAdminHome&amp;action=optOut&amp;language=en&amp;setCookieInNewWindow=1"
-            target="_blank">
-            <input type="hidden" name="nonce" value="95fb5ca236a846064216d0c306ef35a0">
-            <input type="hidden" name="fuzz" value="February 22, 2019 16:58">
-            <input onclick="submitForm(event, this.form);" type="checkbox" id="trackVisits" name="trackVisits"
-                checked="checked">
-            <label for="trackVisits"><strong>
-                    You are not opted out. Uncheck this box to opt-out.
-                </strong></label>
-            <noscript>
-                <button type="submit">Save</button>
-            </noscript>
-        </form>
-        <script type="text/javascript"
-            src="https://david.mywire.org/piwik/plugins/CoreAdminHome/javascripts/optOut.js?cb=114ff59770ac433b9a8753d11e35d185"></script>
-            <!-- <iframe
-        style="border: 0; height: 200px; width: 600px;"
-        src="https://david.mywire.org/piwik/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=&fontSize=&fontFamily="
-        ></iframe> -->
+        <p>I am using a self-hosted Matomo instance.</p>
+        <p>Your data never gets to Google, is never used for advertisements and never sold to third parties.</p>
+        <p>You can <span class="choiceButton">opt-out</span></p>
+        <!-- <p>You may choose to prevent this website from aggregating and analyzing the actions you take here. Doing so will protect your privacy, but will also prevent the owner from learning from your actions and creating a better experience for you and other users.
+                You are not opted out. Uncheck this box to opt-out. </p> -->
+        <!-- <p> Opt-out complete; your visits to this website will not be recorded by the Web Analytics tool. Note that if you clear your cookies, delete the opt-out cookie, or if you change computers or Web browsers, you will need to perform the opt-out procedure again.
+                You are currently opted out. Check this box to opt-in.</p> -->
+        <script src="tracking.js"></script>
     </div>
-    <script src="game.js"></script>
+        <script src="game.js"></script>
     
 
 <!-- Matomo -->
