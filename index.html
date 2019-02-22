@@ -19,33 +19,32 @@
             <audio id="wrong" src="audio/wrong.mp3"></audio>
             <audio id="pair" src="audio/pair.mp3"></audio>
     </div>
+        <script src="game.js"></script>
+    
+    <!-- Matomo opt-out window-->
     <div class="optout">
         <div class="close" onclick="(()=>{document.querySelector('.optout').style='display:none'})()">❌</div>
         <p>I am using a self-hosted Matomo instance.</p>
         <p>Your data never gets to Google, is never used for advertisements and never sold to third parties.</p>
         <p>You can <span class="choiceButton">opt-out</span></p>
-        <!-- <p>You may choose to prevent this website from aggregating and analyzing the actions you take here. Doing so will protect your privacy, but will also prevent the owner from learning from your actions and creating a better experience for you and other users.
-                You are not opted out. Uncheck this box to opt-out. </p> -->
-        <!-- <p> Opt-out complete; your visits to this website will not be recorded by the Web Analytics tool. Note that if you clear your cookies, delete the opt-out cookie, or if you change computers or Web browsers, you will need to perform the opt-out procedure again.
-                You are currently opted out. Check this box to opt-in.</p> -->
+        <link rel="stylesheet" href="optout.css">
         <script src="tracking.js"></script>
     </div>
-        <script src="game.js"></script>
-    
+    <!-- End Matomo Opt-Out Window Code -->
 
-<!-- Matomo -->
-<script type="text/javascript">
-    var _paq = window._paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function () {
-        var u = "https://david.mywire.org/piwik/";
-        _paq.push(['setTrackerUrl', u + 'matomo.php']);
-        _paq.push(['setSiteId', '2']);
-        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-        g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
-    })();
-</script>
-<!-- End Matomo Code -->
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = window._paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "https://david.mywire.org/piwik/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '2']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
 </body>
 </html>
