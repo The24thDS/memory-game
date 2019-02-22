@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 *{
     margin: 0;
 }
@@ -16,13 +17,16 @@ body{
   width: 650px;
   height: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-content: center;
   justify-items: center;
-  background-color: white;
+  background: url("./images/stats.svg"), #ffffffbb;
   margin-bottom: 20px;
   box-shadow: 0 0 6px white;
   z-index: 3;
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  line-height: 1.4
 }
 
 #stats div{
@@ -57,6 +61,38 @@ body{
     align-items: center;
     font-size: 35px;
     text-align: center;
+}
+#game.over::before{
+  content: 'At least you tried 😫';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+  z-index: 3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  text-align: center;
+}
+#game.loading::before{
+  content: 'Loading';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#59a4f8, #186dcb);
+  z-index: 3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  text-align: center;
 }
 .card{
     transition: transform 1s;
@@ -98,16 +134,16 @@ body{
 }
 
 #water {
-  --size: 100px;
+  --size: 7vh;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
   pointer-events: none;
-  background-image: linear-gradient(to bottom, #eafeff00 1%, #1399c6ee, #2857daee), url("images/wave.png");
+  background-image: url("images/wave.svg");
   background-repeat: repeat-x;
-  background-size: var(--size) calc(var(--size) / 1.5);
+  background-size: var(--size) calc(var(--size) / 0.9);
   background-position: 0 bottom;
   animation: waves 20s linear infinite alternate;
   transition: background-size 3s;
