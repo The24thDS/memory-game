@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
-<body>
+<body onload="onLoad()">
     <div id="stats">
         <div>Clicks <span id="clicks">0</span></div>
+        <div>Pairs checked<span id="pairs">0</span></div>
         <div>Time <span id="time">0</span></div>
     </div>
-    <div id="game"></div>
+    <div id="game" class="loading"></div>
     <div id="water">
             <audio id="drop" src="audio/drop.mp3"></audio>
             <audio id="wrong" src="audio/wrong.mp3"></audio>
+            <audio id="pair" src="audio/pair.mp3"></audio>
     </div>
     <script src="game.js"></script>
 </body>
